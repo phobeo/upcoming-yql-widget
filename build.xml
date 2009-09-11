@@ -1,0 +1,24 @@
+<project name="UpcomingEventsWidget" default="build" basedir=".">
+ 
+  <description>Upcoming widget packaging tasks</description>
+ 
+  <property name="dist" location="dist"/>
+  <property name="src" location="src"/>
+ 
+  <target name="build.widget">
+    <mkdir dir="${dist}"/>
+    <zip zipfile="${dist}/${ant.project.name}.wgt">
+      <fileset dir="${src}">
+        <include name="**/*"/>
+        <exclude name="**/gadget*"/>
+      </fileset>
+    </zip>
+  </target>
+ 
+  <target name="build" depends="build.widget"/>
+
+  <target name="clean">
+    <delete dir="${dist}"/>
+  </target>
+ 
+</project>

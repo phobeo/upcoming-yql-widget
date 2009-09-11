@@ -1,0 +1,17 @@
+upcoming yql widget
+-------------------
+
+a simple widget to display events in a location using yahoo's upcoming.org
+data via a YQL call
+
+BUILD
+-----
+
+use the included ant build.xml from the base directory
+
+> ant 
+
+the widget should be packaged and available in the dist/ directory
+
+It should work out of the box in Vodafone's widget manager or Opera browser
+

@@ -1,0 +1,17 @@
+*{margin:0;padding:0;font-size:13px;}
+body{background:#fff;color:#000;font-family:verdana,helvetica,arial,sans-serif;}
+form{background:#a30000;padding:0.5em;}
+input{width:9em;}
+form p{padding-bottom:0.5em;}
+label{font-weight:bold;padding-right:0.5em;}
+select{margin-right:1em;}
+input[type='submit']{width:5em;background:#fcb500;border:1px solid white;}
+#header{background:transparent url("i/upcoming_banner.png") no-repeat scroll left top;text-align:center;}
+#footer * {font-size:xx-small;color:#fcb500;background:#a30000;padding:0.25em;margin-top:1em;text-align:center;}
+#output{text-align:center;}
+#navigation{text-align:center;color:#a30000;font-weight:bold;}
+
+.results a {text-decoration:none;}
+.event{border-bottom:1px dotted #a30000;padding-bottom:0.5em;background:transparent url("i/arrowright.gif") no-repeat scroll right center;}
+p.event_desc{color:gray;}
+p.event_name{font-weight:bold;}

@@ -1,0 +1,12 @@
+<widget id="upcomingevents" dockable="yes">
+  <widgetname>Upcoming events</widgetname>
+  <description>See events happening near you!</description>
+  <icon>css/i/logo.png</icon>
+  <width>320</width>
+  <height>240</height>
+  <author>
+    <name>Ricardo Varela</name>
+    <link>http://phobeo.com</link>
+    <email>phobeo@gmail.com</email>
+  </author>
+</widget>
